@@ -375,6 +375,7 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    text-align: right;
 }
 
 header .intro-text .intro-lead-in {
@@ -386,6 +387,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     /*font-style: italic;*/
     line-height: 22px;
+    text-align: right;
 }
 
 header .intro-text .intro-heading {
@@ -398,6 +400,7 @@ header .intro-text .intro-heading {
     /*font-weight: 700;*/
     line-height: 75px;
     padding-bottom: 15px;
+    text-align: right;
 }
 
 @media(min-width:768px) {
@@ -421,6 +424,7 @@ header .intro-text .intro-heading {
         padding-top: 280px;
         /*padding-bottom: 200px;*/
         padding-bottom: 100px;
+        text-align: right;
     }
 
     header .intro-text .intro-lead-in {
@@ -432,6 +436,7 @@ header .intro-text .intro-heading {
         font-size: 40px;
         /*font-style: italic;*/
         line-height: 40px;
+        text-align: right;
     }
 
     header .intro-text .intro-heading {
@@ -443,6 +448,7 @@ header .intro-text .intro-heading {
         font-size: 75px;
         /*font-weight: 700;*/
         line-height: 75px;
+        text-align: right;
     }
 }
 
