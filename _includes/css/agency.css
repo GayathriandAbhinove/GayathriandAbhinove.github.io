@@ -760,6 +760,35 @@ section h3.section-subheading {
     }
 }
 
+/* Mobile-friendly timeline */
+@media (max-width: 768px) {
+    /* Make images larger and centered */
+    .timeline > li .timeline-image {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 20px;
+        position: relative; /* stop absolute positioning */
+    }
+
+    /* Make the text panels take full width under the image */
+    .timeline > li .timeline-panel {
+        width: 100%;
+        float: none;
+        text-align: center; /* optional for mobile */
+    }
+
+    /* Remove alternating inversion on mobile */
+    .timeline > li.timeline-inverted .timeline-panel {
+        float: none;
+    }
+
+    /* Ensure spacing between items */
+    .timeline > li {
+        margin-bottom: 40px;
+    }
+}
+
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
