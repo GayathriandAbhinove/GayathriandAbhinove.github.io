@@ -363,9 +363,9 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/backgrounds/header.gif'); 
-    background-position: center center;
+    background-position: left center;
     /*background-position: top center;*/
-    background-repeat: none;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -410,8 +410,8 @@ header .intro-text .intro-heading {
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/backgrounds/header.gif'); 
     /*background-position: center center;*/
-    background-position: top center;
-    background-repeat: none;
+    background-position: left center;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
