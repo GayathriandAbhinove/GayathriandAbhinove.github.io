@@ -452,7 +452,7 @@ header .intro-text .intro-heading {
     }
 }
 
-/* --- Tablet styles (768px–991px) --- */
+/* --- Tablet styles (768px–991px) ---
 @media (min-width: 768px) and (max-width: 991px) {
     header .intro-text .intro-lead-in {
         font-size: 32px;
@@ -463,20 +463,20 @@ header .intro-text .intro-heading {
         font-size: 25px;
         line-height: 65px;
     }
-}
+} */
 
 /* --- Mobile styles (<768px) --- */
 @media (max-width: 767px) {
     header .intro-text .intro-lead-in {
         font-size: 15px;
-        line-height: 28px;
-        text-align: center; /* optional: center align on mobile */
+        line-height: 20px;
+        text-align: left; /* optional: center align on mobile */
     }
 
     header .intro-text .intro-heading {
         font-size: 30px;
-        line-height: 45px;
-        text-align: center; /* optional: center align on mobile */
+        line-height: 30px;
+        text-align: left; /* optional: center align on mobile */
     }
 }
 
