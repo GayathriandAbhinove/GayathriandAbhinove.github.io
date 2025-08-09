@@ -470,13 +470,13 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         font-size: 15px;
         line-height: 20px;
-        text-align: left; /* optional: center align on mobile */
+        text-align: left !important; /* optional: center align on mobile */
     }
 
     header .intro-text .intro-heading {
         font-size: 30px;
         line-height: 30px;
-        text-align: left; /* optional: center align on mobile */
+        text-align: left !important; /* optional: center align on mobile */
     }
 }
 
