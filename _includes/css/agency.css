@@ -471,7 +471,7 @@ header .intro-text .intro-heading {
         font-size: 15px;
         line-height: 10px;
         text-align: bottom right !important; /* optional: center align on mobile */
-        margin-top: 1000 px
+        margin-top: 1000 px;
         
     }
 
@@ -479,7 +479,7 @@ header .intro-text .intro-heading {
         font-size: 30px;
         line-height: 30px;
         text-align: bottom right !important; /* optional: center align on mobile */
-        margin-top: 1250 px
+        margin-top: 1250 px;
     }
 }
 
