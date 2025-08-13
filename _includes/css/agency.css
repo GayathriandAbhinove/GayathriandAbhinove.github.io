@@ -1060,3 +1060,23 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+.videos-container {
+  text-align: center; /* Center description text */
+}
+
+.video-block {
+  display: inline-block; /* Keep videos centered */
+  margin-bottom: 40px;
+}
+
+.video-description {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+iframe, video {
+  max-width: 100%;
+  height: auto;
+}
